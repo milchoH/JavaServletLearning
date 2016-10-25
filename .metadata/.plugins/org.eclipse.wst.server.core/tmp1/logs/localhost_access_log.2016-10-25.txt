@@ -1,0 +1,3 @@
+127.0.0.1 - - [25/Oct/2016:14:24:19 +0300] "GET / HTTP/1.1" 404 1024
+127.0.0.1 - - [25/Oct/2016:14:24:29 +0300] "GET /EjbHomework/BankOperation.jsp HTTP/1.1" 200 671
+127.0.0.1 - - [25/Oct/2016:14:24:39 +0300] "POST /EjbHomework/BankOperation HTTP/1.1" 200 680

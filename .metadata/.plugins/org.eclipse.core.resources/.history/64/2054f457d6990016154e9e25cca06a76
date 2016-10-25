@@ -1,0 +1,25 @@
+package bg.jwd.ejb;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.ejb.Stateful;
+
+@Stateful
+public class WebBankImpl implements WebBank {
+	
+	private static final Map<String, Amount> bankAccounts = new HashMap()<>();
+
+	@Override
+	public Double deposit(String client, Double amount) {
+		Double currentAmmount = bankAccounts.get(client);
+		return currentAmmount;
+	}
+
+	@Override
+	public Double withdraw(String client, Double amount) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

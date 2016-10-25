@@ -1,0 +1,12 @@
+package bg.jwd.uni.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class StudentControler {
+
+	public String getStudent(Model model);
+	
+	return "studentRegister";
+}

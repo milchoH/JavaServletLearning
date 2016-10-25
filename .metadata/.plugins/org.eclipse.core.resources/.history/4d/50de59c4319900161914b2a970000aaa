@@ -1,0 +1,22 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<html>
+	<head>
+		<title>Student Registry</title>
+	</head>
+	<body>
+		<h1>
+			Student Registry!
+		</h1>
+		
+		<table>
+			<thead>
+				<tr>
+					<td>Faculty number </td>
+					<td>Name </td>
+				</tr>
+			</thead>
+			<c:if test= "${not empty students }">
+		</table>
+	</body>
+</html>

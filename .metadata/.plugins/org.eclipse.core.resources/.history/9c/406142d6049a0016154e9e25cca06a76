@@ -1,0 +1,8 @@
+package bg.jwd.entity;
+
+public class Account {
+	private Double amount;
+	private String currency;
+	
+
+}

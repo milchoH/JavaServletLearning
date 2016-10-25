@@ -1,0 +1,11 @@
+package bg.jwd.entity;
+
+import java.util.Date;
+
+public class ExchangeRate {
+	private String currency;
+	private String rate;
+	private Date date;
+	
+
+}

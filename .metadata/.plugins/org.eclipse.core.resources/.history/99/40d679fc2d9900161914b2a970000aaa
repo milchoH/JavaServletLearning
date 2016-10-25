@@ -1,0 +1,15 @@
+package bg.jwd.uni.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class StudentControler {
+
+	@RequestMapping(value ="/studentRegister")
+	public String getStudent(Model model){
+	
+	return "studentRegister";
+	}
+}

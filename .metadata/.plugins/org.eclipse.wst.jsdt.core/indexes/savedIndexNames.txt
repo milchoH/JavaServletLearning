@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/home/milcho/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2064968958.index
+1891279976.index
+302759073.index
+2413954929.index
+704426582.index
+368526366.index

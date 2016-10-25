@@ -1,0 +1,5 @@
+package bg.jwd.uni.services;
+
+public interface StudentServices {
+
+}

@@ -1,0 +1,30 @@
+package bg.jwd.entity;
+
+import java.util.Date;
+
+public class ExchangeRate {
+	private String currency;
+	private String rate;
+	private Date date;
+	
+	public String getCurrency() {
+		return currency;
+	}
+	public void setCurrency(String currency) {
+		this.currency = currency;
+	}
+	public String getRate() {
+		return rate;
+	}
+	public void setRate(String rate) {
+		this.rate = rate;
+	}
+	public Date getDate() {
+		return date;
+	}
+	public void setDate(Date date) {
+		this.date = date;
+	}
+	
+
+}

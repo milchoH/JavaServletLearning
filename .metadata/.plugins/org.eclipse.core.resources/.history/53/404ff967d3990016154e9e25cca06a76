@@ -1,0 +1,12 @@
+package bg.jwd.servlets;
+
+import javax.servlet.http.HttpServlet;
+
+public class BankOperation extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+}

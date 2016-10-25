@@ -1,0 +1,10 @@
+package bg.jwd.ejb;
+
+import javax.ejb.Local;
+
+@Local
+public interface WebBank {
+	Double deposit(Double amount);
+	Double withdraw(Double amount);
+
+}

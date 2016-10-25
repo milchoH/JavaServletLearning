@@ -1,0 +1,8 @@
+package bg.jwd.ejb;
+
+import javax.ejb.EJB;
+
+@EJB
+public class WebBankImpl {
+
+}
